@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:inputType="text"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_title" />
+
+
+    <com.example.android.sciencefeeds.DatePreference
+        android:defaultValue="@string/settings_from_date_default"
+        android:key="@string/start_from_date_key"
+        android:title="@string/settings_start_from_date_title" />
+</PreferenceScreen>

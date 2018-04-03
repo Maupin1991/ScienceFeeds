@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ScienceFeeds</string>
+    <string name="no_internet">Sorry, no internet connection.</string>
+    <string name="sorry_no_science_feed_found">Sorry, no science feed found.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_menu_item">Science Feeds Settings</string>
+    <string name="settings_order_by_default">newest</string>
+    <string name="settings_order_by_key">order_by</string>
+    <string name="settings_order_by_title">Order By</string>
+    <string name="settings_start_from_date_title">Start from Date</string>
+    <string name="start_from_date_key">from-date</string>
+    <string name="settings_from_date_default">2018-01-01</string>
+    <string name="settings_date_picker_set">Set</string>
+    <string name="settings_date_picker_cancel">Cancel</string>
+</resources>

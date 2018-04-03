@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/science_feed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/vertical_margin"
+    android:background="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/padding_list_item"
+    android:paddingLeft="@dimen/padding_list_item"
+    android:paddingRight="@dimen/padding_list_item"
+    android:paddingStart="@dimen/padding_list_item">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColor="@color/color_section"
+            android:textSize="@dimen/section_text_size"
+            tools:text="Science" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:paddingBottom="16dp"
+            android:textColor="@color/color_title"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+            tools:text="Long example of title for testing. This should take enough space." />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:textColor="@color/color_author"
+            android:textSize="@dimen/author_name_text_size"
+            tools:text="Author Name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/date_time_color"
+            android:textSize="@dimen/date_time_text_size"
+            tools:text="Mar 6, 2010" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/date_time_color"
+            android:textSize="@dimen/date_time_text_size"
+            tools:text="3:00 PM" />
+
+
+    </LinearLayout>
+</LinearLayout>
